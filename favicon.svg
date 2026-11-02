@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ParseFrame">
+  <rect width="64" height="64" rx="14" fill="#090D12"/>
+  <path d="M18 20h10l4 8-4 8H18" fill="none" stroke="#48BFD0" stroke-width="3" stroke-linecap="square"/>
+  <path d="M32 36h14" stroke="#48BFD0" stroke-width="3" stroke-linecap="square"/>
+  <path d="M18 44h10" stroke="#D6A45C" stroke-width="3" stroke-linecap="square"/>
+  <path d="M46 20v16" stroke="#48BFD0" stroke-width="3" stroke-linecap="square" opacity=".5"/>
+</svg>

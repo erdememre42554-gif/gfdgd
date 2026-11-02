@@ -1,0 +1,375 @@
+# MASTER DESIGN & DEVELOPMENT DIRECTIVE — PROJECT 01
+
+## GÖREV: MEVCUT WEB SİTESİNİ BAŞTAN SONA PREMIUM BİR DEVELOPER EXPERIENCE OLARAK YENİDEN TASARLA
+
+Bu görevde sana verilen mevcut web sitesi proje klasörünü inceleyecek ve bütün siteyi kapsamlı biçimde yeniden tasarlayacaksın.
+
+**Sadece öneri hazırlama. Sadece analiz yapma. Sadece Figma benzeri prototip üretme. Gerçek proje dosyalarında çalış ve tasarımı uygulamaya geçir.**
+
+Mevcut markayı, araçları, içerikleri, URL yapılarını ve çalışan fonksiyonları koru. Görsel tasarım sistemini, sayfa kompozisyonlarını, etkileşimleri ve kullanıcı deneyimini profesyonel seviyeye taşı.
+
+---
+
+# 1. PROJENİN MEVCUT KARAKTERİNİ ANLA
+
+Bu proje, tarayıcı içerisinde çalışan geliştirici ve veri araçlarından oluşmaktadır.
+
+Mevcut ürün ailesinde:
+
+- JSON Formatter & Validator
+- JSON Minifier
+- JSON Diff
+- JSON ↔ CSV Converter
+- JSON ↔ YAML Converter
+- Base64 Encode / Decode
+- URL Encode / Decode
+- JWT Decoder & Inspector
+- UUID / ULID Generator
+- SHA Hash Generator
+- HMAC Generator
+- Regex Tester
+- Cron Expression Builder
+- Unix Timestamp Converter
+- Text Diff
+- Markdown Preview & HTML Export
+- HTML Formatter / Minifier
+- CSS Formatter / Minifier
+- SQL Formatter
+- WCAG Contrast Checker
+
+bulunmaktadır.
+
+Bunların yanı sıra kategori sayfaları, eğitim içerikleri, araçlara özel eğitim sayfaları, popüler araçlar, gizlilik, metodoloji, iletişim, hakkında, changelog ve diğer bilgilendirme sayfaları bulunmaktadır.
+
+Bu ürünün temel değer önerisi:
+
+- İşlemler kullanıcının tarayıcısında gerçekleşir.
+- Kullanıcı verileri sunucuya gönderilmez.
+- Hesap oluşturmak gerekmez.
+- Hassas veriler dış servislere aktarılmaz.
+- Geliştirici araçları hızlı ve doğrudan kullanılabilir.
+
+Yeni tasarım bu güven ve teknik uzmanlık hissini daha güçlü vermelidir.
+
+Mevcut siteyi incelemeden yeni mimari uydurma.
+
+# 2. YENİ TASARIM YÖNÜ
+
+Görsel kimliği premium, futuristik ve teknik bir dijital laboratuvar olarak yeniden oluştur.
+
+Tasarım referans karakteri:
+
+- Advanced developer workstation
+- Data processing laboratory
+- Technical observability interface
+- Precision engineering
+- Premium developer software
+- Interactive data visualization
+
+Hazır admin paneli, sıradan SaaS landing page veya standart AI web sitesi tasarımı kullanma.
+
+Her şeyi aynı kart yapısına dönüştürme.
+
+Tasarımda:
+
+- Güçlü tipografik hiyerarşi
+- Asimetrik grid düzenleri
+- Derinlik hissi veren katmanlar
+- Teknik çizimler
+- Hassas veri tabloları
+- Kod ve terminal görselleştirmeleri
+- İnce çizgiler ve ölçüm detayları
+- Kontrollü ışık ve kontrast
+- Özgün mikro etkileşimler
+
+kullan.
+
+Mevcut koyu teknik karakteri koruyabilirsin ancak eski tasarımı yalnızca renklerini değiştirerek tekrar etme. Baştan yeni kompozisyon oluştur.
+
+# 3. RENK VE GÖRSEL SİSTEM
+
+Ana renk karakteri:
+
+- Derin grafit
+- Antrasit
+- Koyu füme
+- Soğuk beyaz
+- Teknik gri
+- Cyan
+- Elektrik mavisi
+- Kontrollü amber
+
+Cyan ve elektrik mavisi etkileşimlerde ve veri görselleştirmelerinde kullanılmalı.
+
+Amber; uyarı, alternatif durum ve belirli teknik veri noktalarında kullanılmalı.
+
+Yeşil pozitif sonuçlar, kırmızı hatalar için fonksiyonel olarak kullanılabilir.
+
+Bütün yüzeyleri neon yapma. Sürekli parlayan kenarlıklar, rastgele gradientler ve aşırı glow efektleri kullanma.
+
+Renkler, veri hiyerarşisini ve işlevleri desteklemeli.
+
+# 4. THREE.JS — GERÇEK 3D DENEYİM
+
+Three.js veya projeye uygun gerçek WebGL altyapısını kullan.
+
+Sadece 3D görsel koymuş olmak için sahne oluşturma.
+
+Ana sayfa için özgün bir veri işleme laboratuvarı sahnesi geliştir.
+
+Sahne fikirleri:
+
+- JSON nesnelerinin parçalanarak veri katmanlarına dönüşmesi.
+- Veri paketlerinin yerel işlem hattından geçmesi.
+- Kod bloklarının geometrik yapılara dönüşmesi.
+- Veri akışlarının tarayıcı sınırları içerisinde işlendiğini gösteren görsel sistem.
+- Farklı formatların birbirine dönüşümünü anlatan parametrik 3D kompozisyon.
+
+Sahne gerçek ürünün çalışma mantığıyla ilişkili olmalı.
+
+Kullanıcı etkileşimleri:
+
+- Mouse hareketine kontrollü tepki.
+- Kamera perspektifinde hafif değişim.
+- Veri noktalarının seçilebilir olması.
+- Scroll sırasında sahnenin aşamalı değişmesi.
+- Belirli veri katmanlarının açıklama gösterebilmesi.
+
+Siyah boşluk üzerinde rastgele dönen küreler oluşturma.
+
+Mobilde hafifletilmiş sahne, düşük performanslı cihazlarda Canvas veya SVG fallback kullan.
+
+WebGL başarısız olursa sayfa çalışmaya devam etmeli.
+
+# 5. GSAP VE SCROLLTRIGGER
+
+GSAP ve ScrollTrigger kullanarak sayfa bazlı animasyon sistemi kur.
+
+Özellikle:
+
+- Hero alanında veri sahnesinin aşamalı ortaya çıkması.
+- Kod satırlarının kontrollü biçimde oluşması.
+- Veri akışlarının sırayla aktifleşmesi.
+- Scroll ile bölümler arasında anlamlı geçişler.
+- Araç kategorilerinin farklı animasyonlarla görünmesi.
+- Kod ve sonuç panellerinin koordineli hareketi.
+- Veri görselleştirmelerinin scroll konumuna göre gelişmesi.
+
+Animasyonlar birbirinin kopyası olmasın.
+
+Her sayfanın içeriğine göre farklı animasyon senaryosu oluştur.
+
+Aşırı parallax, sürekli hareket, gereksiz döndürme ve kullanıcıyı yoran animasyonlardan kaçın.
+
+prefers-reduced-motion desteği zorunlu.
+
+# 6. ANA SAYFA
+
+Ana sayfayı tamamen yeniden oluştur.
+
+Önerilen yapı:
+
+1. Premium teknik navigasyon.
+2. Güçlü hero başlığı ve ürün açıklaması.
+3. Etkileşimli Three.js veri işleme sahnesi.
+4. Yerel işlemeyi anlatan görsel veri akışı.
+5. Gerçek araç arama ve keşif alanı.
+6. Araç kategorilerinin özgün kompozisyonları.
+7. Öne çıkan araçlar.
+8. JSON, YAML, CSV ve kod işleme örnekleri.
+9. Güvenlik ve gizlilik açıklamaları.
+10. Tarayıcı içinde çalışmanın avantajları.
+11. Teknik metodoloji ve eğitim içerikleri.
+12. Güçlü footer.
+
+Hero alanında gerçek ürünün çalışma mantığını anlat.
+
+Örnek kodlar kullanılabilir ancak görseller yalnızca dekoratif olmamalı.
+
+# 7. ARAÇ SAYFALARININ YENİDEN TASARIMI
+
+Her araç sayfasını ayrı ayrı incele.
+
+Bütün araçları tek bir genel şablona zorlamadan ortak tasarım sistemi oluştur.
+
+Araç türüne göre farklı çalışma alanları oluştur:
+
+JSON araçları:
+- Editör ve sonuç paneli.
+- Satır numaraları.
+- Syntax highlighting.
+- Hata konumu.
+- Yapısal karşılaştırma.
+- Kopyalama ve indirme işlemleri.
+
+JSON / CSV / YAML:
+- Dönüşüm yönü seçimi.
+- Kaynak ve çıktı alanları.
+- Gerçek dönüşüm sonuçları.
+- Format açıklamaları.
+
+JWT:
+- Header ve payload bölümleri.
+- Claim incelemesi.
+- Tarih alanlarının açıklanması.
+- Decode ve verify arasındaki farkın net gösterilmesi.
+
+Regex:
+- Pattern alanı.
+- Test metni.
+- Eşleşme vurguları.
+- Capture groups.
+- Replacement preview.
+- Güvenli çalışma süresi sınırı.
+
+Hash ve HMAC:
+- Algoritma seçimi.
+- Girdi alanı.
+- Gerçek hash sonuçları.
+- Kopyalama ve dosya işlemleri.
+
+Text Diff ve JSON Diff:
+- İki kaynak paneli.
+- Farkların renkli gösterimi.
+- Satır veya JSON path bazında karşılaştırma.
+
+Cron ve Timestamp:
+- Form alanları.
+- Açıklamalı sonuçlar.
+- Zaman çizelgeleri.
+- Gerçek tarih ve zaman hesaplamaları.
+
+Bütün araçlarda mevcut gerçek hesaplama motorlarını koru.
+
+Sabit demo sonuçlarını gerçek sonuç gibi gösterme.
+
+# 8. KATEGORİ VE İÇERİK SAYFALARI
+
+Aşağıdaki sayfa ailelerinin tamamını yeniden tasarla:
+
+- Ana sayfa
+- Tools
+- All Tools
+- Popular
+- Data kategorisi
+- Text kategorisi
+- Encoding kategorisi
+- Security kategorisi
+- Time kategorisi
+- Accessibility kategorisi
+- Training
+- Araç bazlı training sayfaları
+- Eğitim makaleleri
+- How local processing works
+- Privacy
+- Legal Privacy
+- Legal Terms
+- About
+- Methodology
+- Contact
+- Changelog
+- 404
+
+Hiçbir mevcut rotayı kaldırma.
+
+Araçlar, kategoriler ve eğitim içerikleri arasında gerçek iç bağlantıları koru.
+
+# 9. ARAMA VE NAVİGASYON
+
+Mevcut arama sistemini koru ve görsel olarak geliştir.
+
+Arama:
+
+- Klavye ile açılabilmeli.
+- Anlık filtreleme yapmalı.
+- Araçları kategorilerine göre bulabilmeli.
+- Klavye ile sonuçlar arasında gezilebilmeli.
+- Enter ile ilgili araca gidebilmeli.
+- Mobilde düzgün çalışmalı.
+
+Navigasyon sade ama güçlü olmalı.
+
+# 10. GİZLİLİK VE GÜVEN
+
+Bu projenin en önemli özelliklerinden biri yerel işlemedir.
+
+Bunu tasarımın önemli bir parçası yap.
+
+Şu konuları görsel olarak anlat:
+
+- No upload
+- No server-side processing
+- No account
+- No external processing
+- Browser-local execution
+
+Ancak gerçek uygulama davranışıyla doğrulanmayan güvenlik iddiaları ekleme.
+
+Mevcut gizlilik açıklamalarını ve teknik metodolojiyi koru.
+
+# 11. RESPONSIVE
+
+Şu genişliklerde kontrol et:
+
+360, 390, 430, 768, 1024, 1280, 1440 ve 1920 px.
+
+Mobilde:
+
+- Araç editörleri kullanılabilir kalmalı.
+- Kod alanları taşmamalı.
+- Sonuç panelleri uygun sıraya geçmeli.
+- Menü dokunmatik kullanıma uygun olmalı.
+- Three.js sahnesi hafifletilmeli.
+- Animasyon yoğunluğu azaltılmalı.
+
+# 12. TEKNİK KALİTE
+
+Önce gerçek kaynak kodunu ve kullanılan teknolojileri incele.
+
+Mevcut proje Astro tabanlı statik bir çıktı içeriyor olabilir. Verilen arşivde yalnızca derlenmiş HTML, CSS, JavaScript ve asset dosyaları varsa bunu kaynak kod olarak varsayma.
+
+Gerçek kaynak repository mevcutsa orada çalış.
+
+Kaynak kod yoksa derlenmiş dosyalarda kontrolsüz değişiklik yaparak kalıcı ve sürdürülebilir mimari oluşturduğunu iddia etme. Önce kaynak kodun bulunup bulunmadığını belirle.
+
+Three.js, GSAP ve ScrollTrigger entegrasyonunu mevcut teknolojiyle uyumlu gerçekleştir.
+
+Gereksiz kütüphane ekleme.
+
+Core Web Vitals, erişilebilirlik, SEO ve performans kontrollerini yap.
+
+# 13. TEST VE DOĞRULAMA
+
+Şunları gerçekten test et:
+
+- Tüm rotalar.
+- Tüm araçlar.
+- Tüm butonlar.
+- Formlar ve giriş alanları.
+- Kopyalama ve indirme.
+- Gerçek hesaplama ve dönüştürme sonuçları.
+- Arama.
+- Navigasyon.
+- Eğitim sayfalarının bağlantıları.
+- Three.js sahnesi.
+- GSAP animasyonları.
+- WebGL fallback.
+- Mobil düzen.
+- Keyboard navigation.
+- Reduced motion.
+- Konsol hataları.
+- Kırık asset ve bağlantılar.
+
+Test edilmeyen işlevleri başarılı olarak raporlama.
+
+# SON TALİMAT
+
+Önce projeyi analiz et, ardından doğrudan uygulamaya geç.
+
+Plan hazırlayıp bekleme.
+
+Mevcut çalışan özellikleri koruyarak bütün web sitesini premium, özgün, teknik ve etkileyici bir developer experience haline getir.
+
+Her sayfayı gerçekten tasarla. Three.js ve GSAP'i anlamlı yerlerde kullan. Bütün değişiklikleri gerçek proje dosyalarına uygula.
+
+İş sonunda tamamlanan sayfaları, korunan fonksiyonları, test edilen özellikleri ve varsa eksik kalan işleri ayrı ayrı raporla.
